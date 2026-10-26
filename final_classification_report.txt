@@ -1,0 +1,16 @@
+FINAL INDEPENDENT TEST CLASSIFICATION REPORT (PCOS AI ENSEMBLE)
+=================================================================
+                   precision    recall  f1-score   support
+
+Healthy (Class 0)     0.2573    0.1899    0.2185       416
+   PCOS (Class 1)     0.7097    0.7833    0.7447      1052
+
+         accuracy                         0.6151      1468
+        macro avg     0.4835    0.4866    0.4816      1468
+     weighted avg     0.5815    0.6151    0.5956      1468
+
+Decision Threshold Applied: 0.50
+Ensemble Weights: w1(EffNet)=0.40, w2(DenseNet)=0.60
+Balanced Accuracy: 48.66%
+ROC-AUC: 0.5746
+Brier Calibration Score: 0.2206
